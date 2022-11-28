@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Montserrat-light';
+    src: url(./montserrat/static/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: url(./montserrat/static/Montserrat-Bold.ttf);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #0B0020;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.titulo h1{
+    display: inline-block;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    padding: 0.5em;
+    border-radius: 7px;
+    background-color: #00FF8C;
+    color: #0B0020;
+    font-family: 'Montserrat-bold';
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.texto{
+    text-align: center;
+}
+.texto h2{
+    letter-spacing: 0.05rem;
+    word-spacing: 0.2rem;
+    color: #FFF;
+    font-family: Montserrat-light;
+    font-size: 1.7rem;
+}
+.texto h2 strong{
+    font-family: Montserrat-bold;
+    text-transform: capitalize;
+}
+
+.diario{
+    font-size: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 0fr 0fr 0fr 0fr;
+    margin-top: 3em;
+    column-gap: 3em;
+    row-gap: 2em;
+    justify-self: center;
+    justify-content: center;
+}
+
+.diario div.dia{
+    width: 2em;
+    border-radius: 10px;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    padding-left: 0.4em;
+    padding-right: 0.7em;
+    
+    color: #00FF8C;
+    background-color: #4D00DF;
+    font-family: Montserrat-bold;
+    font-size: 1.7em;
+    text-align: center;
+}

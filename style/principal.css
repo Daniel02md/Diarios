@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: url(./montserrat/static/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: 'Hagrid-light';
+    src: url(./hagrid-light/hagrid-light.ttf);
+}
+
+body{
+    background-color: #0B0020;
+}
+.titulo{
+    text-align: center;
+}
+.titulo h1{
+    display: inline-block;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    padding: 0.5em;
+    padding-bottom: 0.3rem;
+    border-radius: 7px;
+    background-color: #00FF8C;
+    color: #0B0020;
+    font-family: 'Montserrat-bold';
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.conteudo{
+    display: flex;
+    position: relative;
+    width: 100%;
+    
+}
+
+.esquerda{
+
+    gap: 2em;
+    margin-left: 6em;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.esquerda .texto{
+    width: 100%;
+    justify-self: center;
+}
+
+.esquerda h1{
+    
+   
+    color:#FFFFFF;
+    font-family: Hagrid-light;
+    font-size: 4em;
+}
+.esquerda h1 strong{
+    font-size: 1em;
+    font-weight: 800;
+    color: #00FF8C;
+}
+
+.esquerda p{
+    color:#FFFFFF;
+    margin-top: 0.5rem;
+    letter-spacing: 0.19rem;
+    font-size: 0.95em;
+    font-weight: 700;
+    font-family: Hagrid-light;
+
+}
+.esquerda #link{
+    transition: box-shadow 200ms;
+    padding: 0.8em;
+    padding-top: 0.7em;
+    padding-bottom: 0.5em;
+    margin-bottom: 7em;
+    align-self: center;
+    position: relative;
+    right: 2.2em;
+    top: 1.8em;
+    border-radius: 39px;
+    background-color: #00FF8C;
+    
+}
+.esquerda #link a{
+    color: #0B0020;
+    text-decoration: none;
+    font-family: Montserrat-bold;
+    font-size: 2rem;
+}
+
+.esquerda #link:hover{
+    transition: background-color 1s;
+    background-color: #00FF8C;
+    box-shadow: 0px 0px 20px#00FF8C;
+}
+
+.esquerda a:active{
+    background-color: #006340;
+}
+
+
+.direita {
+    margin-right: 3em;
+    align-self: center;
+    justify-self: end;
+    text-align: center;
+    width: 100%;
+    
+    
+}
+.direita img{
+    width: 36em;
+}
