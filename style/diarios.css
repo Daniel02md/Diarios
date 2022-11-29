@@ -7,7 +7,6 @@
     src: url(./montserrat/static/Montserrat-Bold.ttf);
 }
 body{
-    display: flex;
     flex-direction: column;
     position: relative;
     background-color: #0B0020;
@@ -59,7 +58,8 @@ body{
 }
 
 .diario div.dia{
-    width: 2em;
+    
+    width: 2.2em;
     border-radius: 10px;
     padding-top: 0.7em;
     padding-bottom: 0.7em;
@@ -70,5 +70,7 @@ body{
     background-color: #4D00DF;
     font-family: Montserrat-bold;
     font-size: 1.7em;
+    justify-content: center;
     text-align: center;
 }
+
