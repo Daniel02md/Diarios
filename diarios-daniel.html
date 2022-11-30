@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/diarios.css">
     <link rel="stylesheet" href="style/reset.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <title>Diário - Daniel</title>
 </head>
 <body>
+    
     <head>
         <div class="titulo">
             <h1>esportes coletivos</h1>
@@ -16,22 +18,380 @@
     </head>
     <main>
         <div class="texto">
+
             <h2>
                 Relatórios de <strong class="nome">marcos daniel</strong>:
             </h2>
+            <p id="aviso">(clique no dia que deseja ver o diario)</p>
         </div>
         <div class="diario">
-            <div class="dia">
+            <div class="dia" id="19/10" >
                 19/10
+                <div class="relatorio" >
+                    
+
+                    <div class="cabeçalho">
+                        
+                        <p class="autor"> Aluno: Marcos Daniel</p>
+                        <p class="data"> Data: 19/10</p>
+                        <img class="fechar" onclick="fecharRelatorio(this.parentElement.parentElement.parentElement)" src="media/Close_Icon.png" alt=""></img>
+                    </div>
+                    <br>
+                    <div class="corpo">
+                        <ol class="questoes">
+                            <li class="questoes">
+                                <p >
+                                    <strong class="pergunta">Quais movimentos meu corpo produz nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">Treinamos, nessa aula, alguns dos fundamentos do vôlei. Neles, conseguimos fazer certos tipos de movimento, tais como: abdominal, levantar os braços de maneira a jogar a bola, elevar a bola usando somente os dedos e agachamento.</p>
+                                </p>
+                            </li>
+                            <li class="questoes">    
+                                <p class="questao">
+                                    <strong class="pergunta">O que meu corpo sente no movimento nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">Sinto basicamente que meu corpo está saindo de um estado de nenhuma atividade para bastante atividade física. Isso produz em mim uma extrema sensação de cansaço.</p>
+                                </p>
+                            </li>
+                            <li class="questoes">
+                                <p class="questao">
+                                    <strong class="pergunta">Como eu me relaciono com outros corpos nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">Eu tive que aprender a trabalhar em sincronia com minha parceira. Para mim, o objetivo ali era aprender a funcionar como um time, tendo que aprender a me movimentar em sincronia com minha parceira.</p>
+                                </p>
+                            </li>
+                            <li class="questoes">
+                                <p class="questao">
+                                    <strong class="pergunta">Consigo relacionar minha produção corporal com temas políticos e sociais?</strong> 
+                                    <p class="resposta">Me referindo a aula do dia 19/10, onde praticamos e entendemos, através da prática, os fundamentos do voleibol, não consigo relacioná-la a nenhum tema político. Sim, consigo relacionar o vôlei a diversos temas, mas a essa prática em específico, não.</p>
+                                </p>
+                            </li>
+                        </ol>
+                        
+                        
+                        
+                    </div>
+                    <p></p>
+                </div>
             </div>
-            <div class="dia">24/10</div>
-            <div class="dia">26/10</div>
-            <div class="dia">07/11</div>
-            <div class="dia">09/11</div>
-            <div class="dia">12/11</div>
-            <div class="dia">23/11</div>
-            <div class="dia">19/11</div>
+            <div class="dia">24/10
+                <div class="relatorio" >
+                    
+
+                    <div class="cabeçalho">
+                        
+                        <p class="autor"> Aluno: Marcos Daniel</p>
+                        <p class="data"> Data: 24/10</p>
+                        <img class="fechar" onclick="fecharRelatorio(this.parentElement.parentElement.parentElement)" src="media/Close_Icon.png" alt=""></img>
+                    </div>
+                    <br>
+                    <div class="corpo">
+                        <ol class="questoes">
+                            <li class="questoes">
+                                <p >
+                                    <strong class="pergunta">Quais movimentos meu corpo produz nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">Pude fazer e experimentar: saltos, agachamentos e movimentos de gancho na hora do saque. Além de eu ter me projetado contra o chão, diversas vezes, para que a bola não o encontrasse. </p>
+                                </p>
+                            </li>
+                            <li class="questoes">    
+                                <p class="questao">
+                                    <strong class="pergunta">O que meu corpo sente no movimento nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">Depois de bastante adrenalina, devido a prática e aos jogos, senti meu corpo bastante pesado e, por isso, senti que minhas pernas não aguentavam o peso do meu corpo. Em contrapartida, meus movimentos estavam demasiadamente leves.</p>
+                                </p>
+                            </li>
+                            <li class="questoes">
+                                <p class="questao">
+                                    <strong class="pergunta">Como eu me relaciono com outros corpos nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">No vôlei é necessário uma organização para com o seu time, ao contrário da outra prática que era somente necessário sincronia. Por exemplo, na hora do passe é importantíssimo alinhar com seu time quem irá receber, de maneira extremamente veloz e, por isso, é necessário um esforço coletivo.</p>
+                                </p>
+                            </li>
+                            <li class="questoes">
+                                <p class="questao">
+                                    <strong class="pergunta">Consigo relacionar minha produção corporal com temas políticos e sociais?</strong> 
+                                    <p class="resposta">Vejo que, dentro da prática em que tivemos, pudemos praticar a inclusão de gênero, não baseando a habilidade por ser a pessoa (nossa adversária ou parceira de equipe) homem, mulher ou de gênero não definido, mas jogando todos em conjunto como turma, independentemente do gênero, cor ou sexualidade.</p>
+                                </p>
+                            </li>
+                        </ol>
+                        
+                        
+                        
+                    </div>
+                    <p></p>
+                </div>
+            </div>
+            <div class="dia">26/10
+                <div class="relatorio" >
+                    
+
+                    <div class="cabeçalho">
+                        
+                        <p class="autor"> Aluno: Marcos Daniel</p>
+                        <p class="data"> Data: 26/10</p>
+                        <img class="fechar" onclick="fecharRelatorio(this.parentElement.parentElement.parentElement)" src="media/Close_Icon.png" alt=""></img>
+                    </div>
+                    <br>
+                    <div class="corpo">
+                        <ol class="questoes">
+                            <li class="questoes">
+                                <p >
+                                    <strong class="pergunta">Quais movimentos meu corpo produz nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">Experimentei corridas, chutes, desmoronamento corporal, saltos, quedas, cabeçadas, deslizamentos e empurrões.</p>
+                                </p>
+                            </li>
+                            <li class="questoes">    
+                                <p class="questao">
+                                    <strong class="pergunta">O que meu corpo sente no movimento nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">A sensação era que meu corpo não podia seguir aquilo que eu queria que ele fizesse, pois eu estava de mãos dadas com uma outra pessoa que, além de não correr, não fazia os mesmos movimentos 	que eu em tempo hábil para vencer.
+                                    </p>
+                                </p>
+                            </li>
+                            <li class="questoes">
+                                <p class="questao">
+                                    <strong class="pergunta">Como eu me relaciono com outros corpos nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">Essa interação foi extremamente difícil, considerando a minha proximidade corporal com minha dupla e a necessidade de trabalharmos juntos. O trabalho em conjunto e a concessão de movimento por minha parte e por parte da minha dupla para que assim conseguíssemos trabalhar em equipe e nos movimentarmos juntos foi o que mais dificultou o processo de interação com o corpo da minha parceira nesta aula.</p>
+                                </p>
+                            </li>
+                            <li class="questoes">
+                                <p class="questao">
+                                    <strong class="pergunta">Consigo relacionar minha produção corporal com temas políticos e sociais?</strong> 
+                                    <p class="resposta">No final, precisávamos de fato trabalhar em equipe para chegarmos em um objetivo final: ganhar. Apesar das dificuldades de se trabalhar em conjunto, com as mesmas oportunidades conseguimos chegar ao objetivo. Podemos, através disso, enxergar a distribuição de oportunidades independentemente de cor, raça ou gênero para todas as pessoas e, além, que o trabalho em equipe, onde se enxerga mais do que somente um trabalhador, mas uma pessoa e sem a distinguir por quaisquer características, resulta na conclusão de um objetivo.</p>
+                                </p>
+                            </li>
+                        </ol>
+                        
+                        
+                        
+                    </div>
+                    <p></p>
+                </div>
+            </div>
+            <div class="dia">07/11
+                <div class="relatorio" >
+                    
+
+                    <div class="cabeçalho">
+                        
+                        <p class="autor"> Aluno: Marcos Daniel</p>
+                        <p class="data"> Data: 07/11</p>
+                        <img class="fechar" onclick="fecharRelatorio(this.parentElement.parentElement.parentElement)" src="media/Close_Icon.png" alt=""></img>
+                    </div>
+                    <br>
+                    <div class="corpo">
+                        <ol class="questoes">
+                            <li class="questoes">
+                                <p >
+                                    <strong class="pergunta">Quais movimentos meu corpo produz nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">FALTOU!!!</p>
+                                </p>
+                            </li>
+                            <li class="questoes">    
+                                <p class="questao">
+                                    <strong class="pergunta">O que meu corpo sente no movimento nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">FALTOU!!!</p>
+                                </p>
+                            </li>
+                            <li class="questoes">
+                                <p class="questao">
+                                    <strong class="pergunta">Como eu me relaciono com outros corpos nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">FALTOU!!!</p>
+                                </p>
+                            </li>
+                            <li class="questoes">
+                                <p class="questao">
+                                    <strong class="pergunta">Consigo relacionar minha produção corporal com temas políticos e sociais?</strong> 
+                                    <p class="resposta">FALTOU!!!</p>
+                                </p>
+                            </li>
+                        </ol>
+                        
+                        
+                        
+                    </div>
+                    <p></p>
+                </div>
+            </div>
+            <div class="dia">09/11
+                <div class="relatorio" >
+                    
+
+                    <div class="cabeçalho">
+                        
+                        <p class="autor"> Aluno: Marcos Daniel</p>
+                        <p class="data"> Data: 09/11</p>
+                        <img class="fechar" onclick="fecharRelatorio(this.parentElement.parentElement.parentElement)" src="media/Close_Icon.png" alt=""></img>
+                    </div>
+                    <br>
+                    <div class="corpo">
+                        <ol class="questoes">
+                            <li class="questoes">
+                                <p >
+                                    <strong class="pergunta">Quais movimentos meu corpo produz nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">Experimentei o nado, o mergulho, claramente, saltos, arremessos e empurrões. Além da experiência do nado e do mergulho, os outros movimentos foram dificultados por causa da presença da água como elemento chave</p>
+                                </p>
+                            </li>
+                            <li class="questoes">    
+                                <p class="questao">
+                                    <strong class="pergunta">O que meu corpo sente no movimento nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">Os movimentos corporais foram bastante forçados, levando em consideração a dificuldade de se fazer movimentos considerados básicos e simples dentro d’água.</p>
+                                </p>
+                            </li>
+                            <li class="questoes">
+                                <p class="questao">
+                                    <strong class="pergunta">Como eu me relaciono com outros corpos nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">De maneira parecida com o vôlei, o trabalho em equipe foi bastante necessário. Nesse caso em específico, a dificuldade foi em se passar a bola na mão de todos os integrantes para que se conseguisse uma pontuação maior.</p>
+                                </p>
+                            </li>
+                            <li class="questoes">
+                                <p class="questao">
+                                    <strong class="pergunta">Consigo relacionar minha produção corporal com temas políticos e sociais?</strong> 
+                                    <p class="resposta">Devido a minha experiência com polo aquático e aquilo que senti e ganhei com o exercício do mesmo, acredito que essa experiência deve ser proporcionada pelo Estado para todas as pessoas, justamente pelo benefício que o mesmo tem para a saúde. A prática desse esporte deve ser proporcionada a toda população.</p>
+                                </p>
+                            </li>
+                        </ol>
+                        
+                        
+                        
+                    </div>
+                    <p></p>
+                </div>
+            </div>
+            <div class="dia">12/11
+                <div class="relatorio" >
+                    
+
+                    <div class="cabeçalho">
+                        
+                        <p class="autor"> Aluno: Marcos Daniel</p>
+                        <p class="data"> Data: 12/11</p>
+                        <img class="fechar" onclick="fecharRelatorio(this.parentElement.parentElement.parentElement)" src="media/Close_Icon.png" alt=""></img>
+                    </div>
+                    <br>
+                    <div class="corpo">
+                        <ol class="questoes">
+                            <li class="questoes">
+                                <p >
+                                    <strong class="pergunta">Quais movimentos meu corpo produz nas aulas de Educação Física?</strong> 
+                                    <p class="resposta"></p>
+                                </p>
+                            </li>
+                            <li class="questoes">    
+                                <p class="questao">
+                                    <strong class="pergunta">O que meu corpo sente no movimento nas aulas de Educação Física?</strong> 
+                                    <p class="resposta"></p>
+                                </p>
+                            </li>
+                            <li class="questoes">
+                                <p class="questao">
+                                    <strong class="pergunta">Como eu me relaciono com outros corpos nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">Infelizmente, tudo que concerne a essas 3 questões não estarei apto a responder, já que não pude estar presente no momento de prática deste sábado letivo, devido a problemas pessoais. Contudo, a última pergunta resume minha experiência quanto a palestra.</p>
+                                </p>
+                            </li>
+                            <li class="questoes">
+                                <p class="questao">
+                                    <strong class="pergunta">Consigo relacionar minha produção corporal com temas políticos e sociais?</strong> 
+                                    <p class="resposta">A palestra que aconteceu antes da prática corporal abriu minha opinião para um problema que já me afetava: a dor na coluna. Pude, de fato, ter acesso a conhecimento e a boas pesquisas e assim consertar a maneira que me posto e o peso que carrego em minha bolsa escolar (por mais que essa não seja a grande vilã da história). Acredito que esse tipo de conteúdo, que envolve toda a camada estudantil, não deveria estar disponível apenas para mim, estudante do IFCE, mas para toda uma comunidade. Infelizmente, essa não é uma realidade, pois nem todo mundo tem acesso a informação e, creio, que esse seja um dos maiores problemas do nosso mundo.</p>
+                                </p>
+                            </li>
+                        </ol>
+                        
+                        
+                        
+                    </div>
+                    <p></p>
+                </div>
+            </div>
+            <div class="dia">23/11
+                <div class="relatorio" >
+                    
+
+                    <div class="cabeçalho">
+                        
+                        <p class="autor"> Aluno: Marcos Daniel</p>
+                        <p class="data"> Data: 23/11</p>
+                        <img class="fechar" onclick="fecharRelatorio(this.parentElement.parentElement.parentElement)" src="media/Close_Icon.png" alt=""></img>
+                    </div>
+                    <br>
+                    <div class="corpo">
+                        <ol class="questoes">
+                            <li class="questoes">
+                                <p >
+                                    <strong class="pergunta">Quais movimentos meu corpo produz nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">Minha percepção de movimento foi a mesma do vôlei com metade da turma, a única diferença foi a rapidez do movimento. Devido a quantidade de pessoas, tive que ser mais ágil.</p>
+                                </p>
+                            </li>
+                            <li class="questoes">    
+                                <p class="questao">
+                                    <strong class="pergunta">O que meu corpo sente no movimento nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">Em comparação com a última prática de vôlei senti que tive um desempenho muito melhor, tanto na agilidade, quanto na execução e qualidade dos movimentos. Além de ter tido um cansaço muito maior do que no jogo anterior.</p>
+                                </p>
+                            </li>
+                            <li class="questoes">
+                                <p class="questao">
+                                    <strong class="pergunta">Como eu me relaciono com outros corpos nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">A sensação foi de unidade para com as outras pessoas, tanto do time que eu fazia parte, quanto do time adversário. A jogabilidade foi muito melhor levando isso em consideração, pois estávamos unidos como um só corpo, nos movimentando assim também e com um único objetivo: vencer.
+                                    </p>
+                                </p>
+                            </li>
+                            <li class="questoes">
+                                <p class="questao">
+                                    <strong class="pergunta">Consigo relacionar minha produção corporal com temas políticos e sociais?</strong> 
+                                    <p class="resposta">Acredito que a INCLUSÃO seja o tema político ideal. Tínhamos entre nossa turma diversos níveis de jogadores de vôlei: de iniciantes a avançados, mas nenhum profissional. O importante é que todos foram incluídos e, além, aqueles que jogavam melhor, ensinaram e tiveram paciência para jogar em equipe com aqueles que não sabiam. </p>
+                                </p>
+                            </li>
+                        </ol>
+                        
+                        
+                        
+                    </div>
+                    <p></p>
+                </div>
+            </div>
+            
+            <div class="dia">28/11
+                <div class="relatorio" >
+                    
+
+                    <div class="cabeçalho">
+                        
+                        <p class="autor"> Aluno: Marcos Daniel</p>
+                        <p class="data"> Data: 28/11</p>
+                        <img class="fechar" onclick="fecharRelatorio(this.parentElement.parentElement.parentElement)" src="media/Close_Icon.png" alt=""></img>
+                    </div>
+                    <br>
+                    <div class="corpo">
+                        <ol class="questoes">
+                            <li class="questoes">
+                                <p >
+                                    <strong class="pergunta">Quais movimentos meu corpo produz nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">Vazio</p>
+                                </p>
+                            </li>
+                            <li class="questoes">    
+                                <p class="questao">
+                                    <strong class="pergunta">O que meu corpo sente no movimento nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">Vazio</p>
+                                </p>
+                            </li>
+                            <li class="questoes">
+                                <p class="questao">
+                                    <strong class="pergunta">Como eu me relaciono com outros corpos nas aulas de Educação Física?</strong> 
+                                    <p class="resposta">Vazio</p>
+                                </p>
+                            </li>
+                            <li class="questoes">
+                                <p class="questao">
+                                    <strong class="pergunta">Consigo relacionar minha produção corporal com temas políticos e sociais?</strong> 
+                                    <p class="resposta">Vazio</p>
+                                </p>
+                            </li>
+                        </ol>
+                        
+                        
+                        
+                    </div>
+                    <p></p>
+                </div>
+            </div>
         </div>
     </main>
+    <script src="script/diarios.js"></script>
+    <script src="script/selecao.js"></script>
 </body>
 </html>

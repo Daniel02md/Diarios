@@ -7,13 +7,10 @@
     src: url(./montserrat/static/Montserrat-Bold.ttf);
 }
 body{
-    flex-direction: column;
-    position: relative;
     background-color: #0B0020;
     text-align: center;
     height: 100%;
     width: 100%;
-    justify-content: center;
 }
 
 .titulo h1{
@@ -58,7 +55,6 @@ body{
 }
 
 .diario div.dia{
-    
     width: 2.2em;
     border-radius: 10px;
     padding-top: 0.7em;
@@ -70,7 +66,87 @@ body{
     background-color: #4D00DF;
     font-family: Montserrat-bold;
     font-size: 1.7em;
-    justify-content: center;
-    text-align: center;
 }
 
+
+
+.relatorio{
+    display: none;
+    overflow: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0%;
+    bottom: 0%;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    background-color: rgb(32, 34, 34);
+}
+
+.relatorio .cabeçalho{
+    display: flex;
+    margin-top: 0.6em;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 0.6em;
+
+}
+.relatorio .cabeçalho .autor{
+    
+    align-self: center;
+    font-size: 0.6em;
+}
+.relatorio .cabeçalho .data{
+    
+    align-self: center;
+    font-size: 0.6em;
+}
+.relatorio .cabeçalho .fechar{
+    transition: width 100ms;
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 1.33em;
+    
+}
+.relatorio .cabeçalho .fechar:hover{
+    width: 1.6em;
+}
+.relatorio .corpo {
+    margin-left: 2em;
+    margin-right: 2em;
+
+}
+
+.relatorio .corpo .questoes{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    text-align: start;
+}
+.relatorio .corpo .questao{
+    position: relative;
+    text-align: start;
+
+}
+.relatorio .corpo strong.pergunta{
+    font-size: 0.6em;
+    color: #ffffff;
+    text-align: start;
+
+}
+.relatorio .corpo p.resposta{
+    color: #dddddd;
+    font-size: 19px;
+    font-family: Montserrat-light;
+    
+}
+
+#aviso{
+    font-family: Montserrat-light;
+    color: #dddddd;
+}
